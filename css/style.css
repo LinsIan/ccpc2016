@@ -1,0 +1,57 @@
+﻿body{background:#EFEFEF;padding-top:70px;overflow-y:scroll}
+.jhenghei,.jh{font-family:微軟正黑體, "Microsoft JhengHei", 新細明體, PMingLiU,;letter-spacing:.1em}
+.page-header{padding-bottom:0}
+.page-header a{text-decoration:none;color:rgba(0,0,0,0.7)}
+.head{font-size:35px;text-shadow:2px 3px 4px rgba(0,0,0,0.3);font-weight:700;margin-top:15px}
+#menu > li > a[data-toggle=tab]{width:63px;text-align:center}
+.head:hover{text-shadow:2px 3px 4px rgba(0,0,0,0.3),5px 5px 5px rgba(0,0,0,0.3)}
+.boxer{margin:15px}
+.info-table th,.info-table td{padding:2em 0}
+.info-head{margin-left:15px}
+.info-content{margin-left:40px}
+.main-content{background-color:#FFF;min-height:650px;padding-top:23px;height:1000px \9;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}
+#btn-register{color:#FFF;font-size:18px;font-weight:700;width:100%;padding:11px 0 15px}
+.btn-shadow{box-shadow:0 1px 0 rgba(255,255,255,.4) inset,0 -3px 0 rgba(0,0,0,.3) inset,0 0 10px rgba(255,255,255,.3) inset,0 2px 4px rgba(0,0,0,.2);-moz-box-shadow:0 1px 0 rgba(255,255,255,.4) inset,0 -3px 0 rgba(0,0,0,.3) inset,0 0 10px rgba(255,255,255,.3) inset,0 2px 4px rgba(0,0,0,.2);-webkit-box-shadow:0 1px 0 rgba(255,255,255,.4) inset,0 -3px 0 rgba(0,0,0,.3) inset,0 0 10px rgba(255,255,255,.3) inset,0 2px 4px rgba(0,0,0,.2)}
+.team-registered-table{margin-bottom:30px}
+.team-registered-head{text-align:center;background-color:#666;color:#fff}
+.team-registered-subtitle{width:100px}
+.team-registered-paid{color:#45bf55;font-weight:700}
+.team-registered-nopaid{color:red;font-weight:700}
+#bulletin-table tr th.bulletin-head{background-color:#2F2413;color:#fff}
+#bulletin-table tr td.bulletin-subtitle,#bulletin-table tr th.bulletin-subtitle{width:120px;padding-left:20px}
+#schedule-table .schedule-head{background-color:#202D41;color:#fff}
+#schedule-table .schedule-subtitle{width:120px;padding-left:30px}
+#raceresult-table .raceresult-head{background-color:#4C7F25;color:#fff}
+#raceresult-table .raceresult-subtitle{width:70px;padding-left:30px}
+.message-record{border:1px dotted #DDD;-webkit-border-radius:6px;-moz-border-radius:6px border-radius:;padding:10px 5px 3px}
+#message-table{margin-left:20px;margin-top:10px;width:95%}
+#message-table tr td,#message-table tr th{border-top:2px solid #DDD;padding:10px 0}
+#message-table tr td.message-subtitle,#message-table tr th.message-subtitle{width:100px;padding-right:20px;text-align:right;vertical-align:top}
+.message-box{width:100%;margin-top:20px}
+#message-box-tabs{margin:0}
+#message-box-tabs li.active{padding-left:0;width:100px;text-align:center;letter-spacing:2px}
+#message-box-content{background-color:#fff;width:100%;min-height:525px;border-left:1px solid #DDD;border-right:1px solid #DDD;border-bottom:1px solid #DDD;-webkit-border-radius:0 4px 4px 4px;-moz-border-radius:0 4px 4px 4px border-radius: 0 4px 4px 4px}
+.form-label{width:58px;margin-left:100px;text-align:center}
+.form-big-btn{font-size:14px;font-weight:700;padding:6px 30px}
+.page-nav{text-align:center}
+.page-nav a{padding:5px}
+.page-nav a.highlight{color:orange;font-weight:700}
+.footer{margin-top:35px;border-top:1px solid #E5E5E5;padding:15px 0 36px}
+#register-form input[type=text],#register-form input[type=password]{width:350px}
+// bug-fix
+/* for Firefox */
+input[type=submit]::-moz-focus-inner,input[type=button]::-moz-focus-inner{border:0}
+input:focus,a:focus{outline:none}
+.label{font-size:12px \9}
+// custom-bootstrap
+.nav-pills > li > a{color:grey}
+.nav > .dropdown.active > a:hover{background-color:grey}
+.nav-pills .active > a,.nav-pills .active > a:hover{background-color:#111}
+.nav-tabs .dropdown-toggle .caret,.nav-pills .dropdown-toggle .caret{border-top-color:grey}
+.nav-tabs .dropdown-toggle:hover .caret,.nav-pills .dropdown-toggle:hover .caret{border-top-color:#EEE}
+.nav-tabs .dropdown:active .caret,.nav-pills .dropdown:active .caret{border-top-color:#FFF;opacity:1;filter:alpha(opacity=100)}
+.table-striped.hover-effect tbody tr:nth-child(odd) td,.table-striped.hover-effect tbody tr:nth-child(odd) th{background-color:#f9f9f9}
+.table.hover-effect tbody tr:hover td,.table.hover-effect tbody tr:hover th{background-color:#f5f5f5}
+#bulletin-table tr td,#bulletin-table tr th,#schedule-table tr td,#schedule-table tr th,#raceresult-table tr td,#raceresult-table tr th{padding:10px 0}
+#schedule-table .schedule-content,#raceresult-table .raceresult-content{padding-left:20px}
+.nav-pills > li > a:hover,.dropdown-menu li > a:hover,.dropdown-menu .active > a,.dropdown-menu .active > a:hover{background-color:#CCC}
