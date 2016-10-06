@@ -54,7 +54,7 @@ if( $input->notEmpty('post', 'act') && isset($_SESSION['ccpc']['islogin']) )
 		
 		<style>
 			.container {
-				//margin-top: 100px;
+				margin-top: 100px;
 			}
 			.book_title {
 				margin-top: 50px;

@@ -10,14 +10,10 @@ class Database extends MySQLi
 
 	function __construct()
 	{		
-		define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));
-	define('DB_PORT', getenv('OPENSHIFT_MYSQL_DB_PORT'));
-	define('DB_USER', getenv('OPENSHIFT_MYSQL_DB_USERNAME'));
-	define('DB_PASS', getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
-	define('DB_NAME', getenv('OPENSHIFT_GEAR_NAME'));
-	$sql_host = constant("DB_HOST"); // Host name 
-	$sql_acc = constant("DB_USER"); // Mysql username 
-	$sql_pwd = constant("DB_PASS"); // Mysql password 
+		
+	$sql_host = "127.0.0.1"; // Host name 
+	$sql_acc = "linsyee"; // Mysql username 
+	$sql_pwd = ""; // Mysql password 
 	$sql_selectedDB="ccpc2016";
 		//parent::__construct('localhost', 'ncuecsie', 'M0154007_CSIE_M0254009', 'ccpc2015');
 		parent::__construct($sql_host, $sql_acc, $sql_pwd, $sql_selectedDB);
